@@ -43,6 +43,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  cursor: default;
 }
 
 .logo-white {
@@ -156,6 +157,7 @@ body {
 
 .footer {
   background-color: var(--footer-bg-color);
+  cursor: default;
 }
 
 /* Section footer */
@@ -176,7 +178,9 @@ body {
 .footer-contact a {
   color: var(--footer-rgba-color);
   text-decoration: none;
+  cursor: default;
 }
+
 .footer-contact a:hover,
 .footer-contact a:focus {
   color: var(--focus-color);
