@@ -181,11 +181,6 @@ body {
   cursor: default;
 }
 
-.footer-contact a:hover,
-.footer-contact a:focus {
-  color: var(--focus-color);
-}
-
 /* Section Projects */
 .projects h2 {
   font-size: 18px;
