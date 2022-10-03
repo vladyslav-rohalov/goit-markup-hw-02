@@ -41,7 +41,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19em;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -59,7 +59,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav a:hover,
@@ -90,7 +90,7 @@ body {
   color: var(--text-color-white);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36em;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -117,16 +117,22 @@ body {
 .features-list p {
   color: var(--text-color-grey);
   font-size: 14px;
-  line-height: 1.71em;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.features-list h3 {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* All title */
 .section-title {
-  font-size: 14px;
-  line-height: 1.14em;
+  font-size: 36px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 /* Section team */
@@ -137,14 +143,14 @@ body {
 .team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19em;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .team p {
   color: var(--text-color-grey);
   font-size: 16px;
-  line-height: 1.19em;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -157,18 +163,19 @@ body {
   color: var(--text-color-white);
 }
 
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .footer-contact p {
   color: var(--text-color-white);
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
 }
 .footer-contact a {
   color: var(--footer-rgba-color);
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71em;
-  letter-spacing: 0.03em;
 }
 .footer-contact a:hover,
 .footer-contact a:focus {
@@ -178,14 +185,14 @@ body {
 /* Section Projects */
 .projects h2 {
   font-size: 18px;
-  line-height: 2em;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .projects p {
   color: var(--text-color-grey);
   font-size: 16px;
-  line-height: 1.88em;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
@@ -196,7 +203,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62em;
+  line-height: 1.62;
   letter-spacing: 0.03em;
 }
 
